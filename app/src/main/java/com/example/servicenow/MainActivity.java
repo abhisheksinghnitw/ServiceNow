@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
                 // close this activity
                 finish();
             }
-        }, 5*1000); // wait for 5 seconds
+        }, Constants.flashScreenTime); // wait for 5 seconds
 	}
 
 

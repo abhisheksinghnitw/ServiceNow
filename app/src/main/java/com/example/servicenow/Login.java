@@ -19,7 +19,7 @@ public class Login extends Activity {
     private EditText password = null;
 
     private Button login;
-    int counter = 3;
+    int counter = Constants.noOfLoginAttempts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

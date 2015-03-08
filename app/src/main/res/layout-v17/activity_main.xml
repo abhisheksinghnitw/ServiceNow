@@ -50,10 +50,10 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
         android:enabled="true"
-        android:paddingStart="5dp"
+        android:paddingStart="8dp"
         android:phoneNumber="true"
         android:password="false"
-        android:paddingEnd="5dp">
+        android:paddingEnd="8dp">
         <requestFocus/>
         </EditText>>
 
@@ -92,8 +92,8 @@
         android:ems="10"
         android:inputType="textPassword"
         android:password="true"
-        android:paddingStart="5dp"
-        android:paddingEnd="5dp" />
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
 
     <Button
         android:id="@+id/login"

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f6a305"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/walloffame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fffd1489"
+        android:text="Wall Of Fame"
+        android:onClick="walloffame"
+        android:height="80dp"
+        android:width="100dp"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/nominate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fffd1489"
+        android:text="Nominate"
+        android:clickable="true"
+        android:height="80dp"
+        android:width="100dp"
+        android:onClick="nominate"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/textView1"
+        android:layout_toLeftOf="@+id/textView1"
+        android:layout_toStartOf="@+id/textView1" />
+
+    <Button
+        android:id="@+id/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fffd1489"
+        android:text="Categories"
+        android:width="100dp"
+        android:onClick="categories"
+        android:height="80dp"
+        android:clickable="true"
+        android:layout_alignTop="@+id/settings"
+        android:layout_alignLeft="@+id/nominate"
+        android:layout_alignStart="@+id/nominate" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fffd1489"
+        android:text="My Profile"
+        android:onClick="profile"
+        android:height="80dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/nominate"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_toEndOf="@+id/textView1" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fffd1489"
+        android:text="Settings"
+        android:onClick="settings"
+        android:height="80dp"
+        android:width="100dp"
+        android:clickable="true"
+        android:visibility="visible"
+        android:layout_below="@+id/profile"
+        android:layout_toRightOf="@+id/walloffame"
+        android:layout_toEndOf="@+id/walloffame"
+        android:layout_marginTop="82dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="HOME"
+        android:textAlignment="center"
+        android:textColor="#fffaff2a"
+        android:textColorHighlight="#ffff3472"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/settings"
+        android:layout_toStartOf="@+id/settings"
+         />
+
+</RelativeLayout>

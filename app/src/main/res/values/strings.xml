@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServiceNow</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_myprofile">Myprofile</string>
+    <string name="back">&lt;</string>
+    <string name="plus">+</string>
+    <string name="title_activity_walloffame">Walloffame</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_activity_campaignforname">Campaignforname</string>
+    <string name="title_activity_staremployees">Staremployees</string>
+    <string name="hyperlink">X Profile link</string>
+    <string name="hyperlink2">Y Profile link</string>
+    <string name="hyperlink3">Z Profile link</string>
+    <string-array name="category"><item>--None</item><item>Employee of the month</item><item>Team Flyer</item></string-array>
+</resources>

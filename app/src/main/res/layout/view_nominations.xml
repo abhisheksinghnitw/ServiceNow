@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ca3e380f"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70px"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="select category"
+        android:textColor="#000000"
+        android:textSize="30sp"  />
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:entries="@array/category"
+        android:background="#ffffffff"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70px"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter Nominee name"
+        android:textColor="#000000"
+        android:textSize="30sp"  />
+    <EditText
+
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:background="@drawable/edittextstyle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70px"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter Nominee ID"
+        android:textColor="#000000"
+        android:textSize="30sp"  />
+    <EditText android:id="@+id/edit_message"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:background="@drawable/edittextstyle"/>
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="View Nominations"
+        android:background="#8500cfff"
+        android:onClick="selfDestruct"
+        android:layout_marginBottom="30dp" />
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:background="#5e37ff1a"
+        android:onClick="selfDestruct" />
+
+
+</LinearLayout>
+

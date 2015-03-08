@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff373a68"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:text="Nominate"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#c659525c"
+        android:textSize="70sp"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70px"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter Your Employee ID"
+        android:textColor="#000000"
+        android:textSize="30sp"  />
+    <EditText
+
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:background="@drawable/edittextstyle"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="80dp"
+            android:text="OK"
+            android:background="#ff5fff88"
+            android:onClick="selfDestruct"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"/>
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="100dp"
+            android:text="Cancel"
+            android:background="#ffff1327"
+            android:onClick="selfDestruct" />
+
+    </LinearLayout>
+</LinearLayout>
+
